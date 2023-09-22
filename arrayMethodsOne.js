@@ -119,9 +119,9 @@ const orders = [{"price":15,"tax":0.09},{"price":42,"tax":0.07},{"price":56,"tax
 
 // numArray.forEach((elem, i) => console.log(`${elem} is at index ${i}`))
 
-orders.foreach((taxNum, i) => console.log(taxNum.price *(1+tax.num.tax)))
-  // console.log('')
-
+// orders.foreach((taxNum, i) => console.log(taxNum.price * (1 + tax.num.tax)))
+// const addTax = orders.forEach(((taxNum, 1) => taxNum.price * (1+ taxNum.tax))) 
+// // console.log()
   
 
 

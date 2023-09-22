@@ -10,7 +10,7 @@ let numbers = [40, 68, 14, 90, 49];
 */
 
 // CODE HERE
-
+numbers.forEach((number)=> console.log (number /2 ))
 
 ////////// PROBLEM 2 //////////
 
@@ -23,7 +23,8 @@ let numbers = [40, 68, 14, 90, 49];
 */
 
 // CODE HERE
-
+const result = numbers.map((number)=> number / 2)
+// console.log(result)
 
 ////////// PROBLEM 3 //////////
 
@@ -149,3 +150,4 @@ let foods = [
 
 // THE TOTAL
 
+totalFood
